@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Long+Cang&display=swap');
+
+:root {
+  --☠-c-primary: rgb(162, 0, 255);
+}
+
+.☠-heading {
+  color: var(--☠-c-primary);
+  font-family: 'Long Cang', cursive;
+  font-size: 3rem;
+}
+
+.☠-sidebar {
+  padding: 30px;
+}
+
+.☠-sidebar_button {
+  img {
+    width: 100%;
+    user-select: none;
+    margin-bottom: 20px;
+  }
+}
+
+// .☠-sidebar_item {}
+.☠-sidebar_list {
+  .-☠-level-0 {
+    padding-left: 0px;
+    font-weight: bold;
+  }
+
+  .-☠-level-1 {
+    padding-left: 10px;
+  }
+}
+
+// .☠-sidebar_title {
+// }

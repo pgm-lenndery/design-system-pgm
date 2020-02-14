@@ -12,7 +12,9 @@
 
 .☠-sidebar {}
 
-.☠-sidebar_button {}
+.☠-sidebar_button {
+  img {}
+}
 
 .☠-sidebar_item {}
 

@@ -5,7 +5,7 @@
   "main": ".eleventy.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "dev": "npx @11ty/eleventy --serve",
+    "dev": "npx @11ty/eleventy --serve --quiet",
     "start": "npm run dev"
   },
   "keywords": [],
@@ -15,5 +15,8 @@
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.0.0"
   }
 }
